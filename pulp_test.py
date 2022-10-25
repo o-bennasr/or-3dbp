@@ -1,6 +1,7 @@
+import pytest
 from pulp import LpVariable, LpProblem, LpMinimize, value
 
-def main():
+def test_basic_lp():
     x = LpVariable("x", 0, 3)
 
     y = LpVariable("y", 0, 1)
@@ -13,7 +14,11 @@ def main():
 
     status = prob.solve()
 
-    print(f"x= {value(x)}, y = {value(y)}")
+    assert value(x) == 2 and value(y) == 0
 
-if __name__=="__main__":
-    main()
+"""    
+import pulp
+print(pulp.__file__)
+"/home/oussema/anaconda3/lib/python3.9/site-packages/pulp/__init__.py"
+"""
+
