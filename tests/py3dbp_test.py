@@ -6,11 +6,12 @@ def test_one_bin_one_item():
 
     packer.add_bin(Bin('large-2-box', 23.6875, 11.75, 3.0, 70.0))
 
-    packer.add_item(Item('50g [powder 1]', 3.9370, 1.9685, 1.9685, 1))
+    packer.add_item(Item('50g [powder 1]', 3.9370, 11.9685, 11.9685, 61))
 
     packer.pack()
 
     assert len(packer.bins) == 1
+    assert len(packer.bins[0].unfitted_items) == 1
 
 """
 import py3dbp
