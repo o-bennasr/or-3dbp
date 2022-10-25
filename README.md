@@ -19,7 +19,8 @@ Running pytest in branch main should mark all tests as passed.
 Only TDD will be accepted to contribute to this repo <br />
 I should see the Client code first.
 
-##  
+## Model visualization
+can be done by mermaid 
 
 ```mermaid
 graph LR
