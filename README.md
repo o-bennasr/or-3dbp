@@ -9,5 +9,5 @@ pip install -r requirements.txt
 
 ## Disclaimer
 This is a minimilastic approach, solving for one bin.
-#TODO (OBN): Formulate the problem, and find a way to scale to multi-bins
-#TODO (OBN): Add support for rotation, Unloading priority and weight distribution
+TODO (): Formulate the problem, and find a way to scale to multi-bins
+TODO (): Add support for rotation, Unloading priority and weight distribution
