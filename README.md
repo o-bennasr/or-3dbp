@@ -20,16 +20,11 @@ Only TDD will be accepted to contribute to this repo <br />
 I should see the Client code first.
 
 ## Meramaid-js
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
 
 ```mermaid
 graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+A((Start)) -- transition --> B((State 1))
+A -- transition --> C((State 2))
+B -- transition --> D((State 3))
+C -- transition --> D
 ```
