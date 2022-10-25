@@ -19,12 +19,12 @@ Running pytest in branch main should mark all tests as passed.
 Only TDD will be accepted to contribute to this repo <br />
 I should see the Client code first.
 
-## Meramaid-js
+##  
 
 ```mermaid
 graph LR
-A((Start)) -- transition --> B((State 1))
-A -- transition --> C((State 2))
-B -- transition --> D((State 3))
-C -- transition --> D
+A((Start)) -- action --> B((S1))
+C((S2)) -- action --> B
+B -- action --> D((S3))
+C -- action --> D
 ```
