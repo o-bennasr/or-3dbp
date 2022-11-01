@@ -22,6 +22,8 @@ I should see the Client code first.
 ## Model visualization
 can be done by mermaid 
 
+```
+[//]: # (
 ```mermaid
 graph LR
 A((Start)) -- action --> B((S1))
@@ -30,3 +32,5 @@ B -- action --> D((S3))
 C -- action --> D
 D -- action --> D
 ```
+
+)
