@@ -28,4 +28,5 @@ A((Start)) -- action --> B((S1))
 C((S2)) -- action --> B
 B -- action --> D((S3))
 C -- action --> D
+D -- action --> D
 ```
